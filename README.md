@@ -79,7 +79,7 @@ Add or reduce the number of epochs to the training regimen.
 
 A new Jupyter Notebook file was created and named AlphabetSoupCharity_Optimisation#.ipynb, with the "#" representing the file optimisation number.
 
-The preprocessing steps were repeated as in Step 1. The number of neurons in tehhidden layers were modifed as well as the number of hidden layers with the aim of achieving higher than 75% accuracy.
+The preprocessing steps were repeated as in Step 1. The number of neurons in the hidden layers were modifed as well as the number of hidden layers with the aim of achieving higher than 75% accuracy. On the 3rd optimisation, the activation function of the input layer was changed from Relu to Tanh. 
 
 The results were saved to an HDF5 file with the filename AlphabetSoupCharity_Optimisation#.h5.
 
@@ -95,15 +95,6 @@ Results summarising the following:
 
 - Data Preprocessing
 
-  What variable(s) are the target(s) for the model?
-  What variable(s) are the features for the model?
-  What variable(s) should be removed from the input data because they are neither targets nor features?
-
 - Compiling, Training, and Evaluating the Model
 
-  How many neurons, layers, and activation functions was selected for the neural network model, and why?
-  Was the target model performance achieved?
-  What steps were taken to attempt to increase model performance?
-
 - Summary
-  Summarised the overall results of the deep learning model and made a recommendation for how a different model could solve this classification problem.
